@@ -9,7 +9,7 @@ include_once('lib.php');
     $instrfile =    'instr_paint.txt';  // displayed after login, before stimuli, and at help-page
     $pgtexts =      'page_texts.txt';   // bits and bobs of text peppered around the system, see example page_texts.txt for explanation what should be found there
     $stimuli =      'words.txt';        // stimuli to be displayed
-    $randomization = 1; //here you can decide if you want to show the stimuli always in order or randomized: 0 means that randomization is off and 1 means that it is on
+    $randomization = 0; //here you can decide if you want to show the stimuli always in order or randomized: 0 means that randomization is off and 1 means that it is on
 
 // If you're not doing anything funky, you shouldn't need to change anything after this.
     

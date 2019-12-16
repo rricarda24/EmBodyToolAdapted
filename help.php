@@ -1,4 +1,4 @@
-<?php
+ <?php
 include_once('settings.php');
 include('header.php');
 echo "<div id='container'>";

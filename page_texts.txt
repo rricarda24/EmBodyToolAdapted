@@ -17,7 +17,7 @@ Title (displayed on login page, does not support ## markup):
 title || Emotion Words
 
 'tasklabel' (displayed as instruction on every page where user does something (annotate-pages):
-tasklabel || For the pictures below, evaluate how the activity of your body changes when you feel...
+tasklabel || Please evaluate the current activity of your body.
 
 'forward' button moves subject from one stimulus to the next when ready
 forward || Click here when done
@@ -26,9 +26,9 @@ forward || Click here when done
 delete || Reset
 
 'left_label' shows underneath the left-hand side picture in annotation page
-left_label || For this body, color the regions whose activity you feel increasing or getting stronger
+left_label || For this body, color the regions whose activity you feel <strong>increasing</strong> or getting stronger
 
-right_label || For this body, color the regions whose activity you feel decreasing or getting weaker
+right_label || For this body, color the regions whose activity you feel <strong>decreasing</strong> or getting weaker
 
 'login-dialog' for what to tell the user at login screen
 login-dialog || Enter your username
