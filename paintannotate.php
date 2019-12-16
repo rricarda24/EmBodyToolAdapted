@@ -84,9 +84,9 @@
 
 <form method="POST" action="getit.php" id="movenext">
 <div style="float:right;margin-right:10px;margin-top:10px;">
-<input type="submit" value="<?php echo $pagetexts['forward'];?>" style="color:#093;cursor:pointer;background:#ddd;font-size:20px;padding:1px;font-weight:bold;"></div></form>
+<input type="submit" value="<?php echo $pagetexts['forward'];?>" style="color:#000000;cursor:pointer;background:#ddd;font-size:20px;padding:1px;font-weight:bold;"></div></form>
 
-<form action="#"><input type="button" style="color:#f00;cursor:pointer;background:#ddd;font-size:20px;padding:1px;font-weight:bold;margin-top:10px;margin-left:10px;" value=<?php echo $pagetexts['delete'];?>  onClick="history.go()"></form>
+<form action="#"><input type="button" style="color:#000000;cursor:pointer;background:#ddd;font-size:20px;padding:1px;font-weight:bold;margin-top:10px;margin-left:10px;" value=<?php echo $pagetexts['delete'];?>  onClick="history.go()"></form>
 
 <script type="text/javascript" >
 
