@@ -48,11 +48,13 @@
     ?>
 <img style="width:480px;margin-top:10px;border:2px solid black;" src="<?php echo $stimulusimage;?>">
 </div>
+  
 <?php }elseif($type == 'paintwords'){?>
 <div class="wordsbox"> 
-<?php echo $stimuli[$p];?></div>
+<?php echo "";?></div>
 </div>
 <?php }?>
+
 
 <div id="pbox">
     <div id="pbox1">
