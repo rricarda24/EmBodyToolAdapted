@@ -17,7 +17,7 @@
 
 
 <div id ="header">
-<span style="font-size:14px;font-weight:bold;margin-left:10px;position:absolute;">id: <?php echo $userID; ?></span>
+<span style="font-size:14px;font-weight:bold;margin-left:10px;position:absolute;">ID: <?php echo $userID; ?></span>
 
 <div id="progress-bar" class="all-rounded">
 <div id="progress-bar-percentage" class="all-rounded" style="width: <?php echo $perc;?>%"><span><?php echo $perc;?>%</span>
