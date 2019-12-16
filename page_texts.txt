@@ -1,5 +1,5 @@
 'welcome' will be the header (h1 style) after logging in:
-welcome || Welcome participant ##user## !
+welcome || Participant ##user##
 
 'thank-you' will show for subjects who have completed the whole shebang:
 thank-you || <br><br> You have completed 100% of the ratings<br><br>Thank you!
