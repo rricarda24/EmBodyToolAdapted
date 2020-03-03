@@ -1,4 +1,4 @@
-'welcome' will be the header (h1 style) after logging in:
+﻿'welcome' will be the header (h1 style) after logging in:
 welcome || Participant ##user##
 
 'thank-you' will show for subjects who have completed the whole shebang:
@@ -19,7 +19,7 @@ title || Emotion Words
 'tasklabel' (displayed as instruction on every page where user does something (annotate-pages):
 tasklabel || Wo fühlst du aktuell Aktivierung in deinem Körper? <br \> Welche Bereiche fühlen sich deaktiviert an? <br \> <br \>Markiere die entsprechenden Stellen auf den beiden Karten, indem den Controller auf die Stelle richtests und die Triggertaste drückst.<br \> <br \> Wenn du fertig bist klicke mit dem Controller auf "Markierung abgeschlossen" & sobald die Markierungen verschwunden sind, auf "Weiter" mit Hilfe des Headsets.
 'forward' button moves subject from one stimulus to the next when ready
-forward || Markierung abgeschlossen
+forward || Speichern
 
 'delete' button empties the filled in annotation page (i.e. the user starts over for that stimulus)
 delete || Nochmals
