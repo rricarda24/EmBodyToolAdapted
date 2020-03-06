@@ -17,7 +17,7 @@ Title (displayed on login page, does not support ## markup):
 title || Emotion Words
 
 'tasklabel' (displayed as instruction on every page where user does something (annotate-pages):
-tasklabel || Wo fühlst du aktuell Aktivierung in deinem Körper? <br \> Welche Bereiche fühlen sich deaktiviert an? <br \> <br \>Markiere die entsprechenden Stellen auf den beiden Karten, indem den Controller auf die Stelle richtests und die Triggertaste drückst.<br \> <br \> Wenn du fertig bist klicke mit dem Controller auf "Markierung abgeschlossen" & sobald die Markierungen verschwunden sind, auf "Weiter" mit Hilfe des Headsets.
+tasklabel || Wo verspüren Sie in Ihrem Körper aktuell Aktivierung, wo Deaktivierung? <br \> <br \> 1. Markieren Sie die Stellen auf dem jeweiligen Körperumriss, mit Hilfe der Triggertaste auf dem Controller. <br \> <br \> 2. Wenn Sie mit Ihrer Markierung zufrieden sind klicken Sie mit dem Controller auf "Speichern" bzw. auf "Nochmals", wenn nicht. <br \> <br \> 3. Sobald die Markierungen verschwunden sind, setzen Sie das Experiment mit "WEITER" (Blicksteuerung) fort.
 'forward' button moves subject from one stimulus to the next when ready
 forward || Speichern
 
@@ -25,9 +25,9 @@ forward || Speichern
 delete || Nochmals
 
 'left_label' shows underneath the left-hand side picture in annotation page
-left_label || Markiere hier Regionen die aktuell <strong>aktiviert</strong> sind.
+left_label || Hier <strong>Aktivierung</strong> 
 
-right_label || Markiere hier Regionen die aktuell <strong>deaktiviert</strong> sind.
+right_label || Hier <strong>Deaktivierung</strong>           
 
 'login-dialog' for what to tell the user at login screen
 login-dialog || Enter your username
