@@ -1,6 +1,7 @@
 <?php
 include('settings.php');
-    
+   
+
 function makePresentation($pfpath){
     global $Nstimuli;
 	global $randomization;

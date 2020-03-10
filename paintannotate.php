@@ -18,7 +18,6 @@
 
 <div id ="header">
 <span style="font-size:14px;font-weight:bold;margin-left:10px;position:absolute;">ID: <?php echo $userID; ?></span>
-
 <div id="progress-bar" class="all-rounded">
 <div id="progress-bar-percentage" class="all-rounded" style="width: <?php echo $perc;?>%"><span><?php echo $perc;?>%</span>
 </div>
@@ -135,6 +134,7 @@ $("#pbox").mousemove(function(e){
 
 /* attach a submit handler to the form */
 $("#movenext").submit(function(event) {
+
                       /* stop form from submitting normally */
                       event.preventDefault();
                       
@@ -145,11 +145,13 @@ $("#movenext").submit(function(event) {
                       /* Send the data using post and put the results in a div */
                       $.post( url, {'arrX': arrX, 'arrY': arrY, 'arrTime': arrTime,'arrXD': arrXD, 'arrYD': arrYD, 'arrTimeD': arrTimeD, 'arrMU': arrMU, 'arrMD': arrMD, 'file': outfile },
                              function(data) {
-                             if(data==1)
-                             window.location = "session.php?auto=1&userID=<?php echo $userID; ?>";
-                             else
-                             window.location = "error.html";
-                             }
+                             if(data==1) 
+	                             window.location = "session.php?auto=1&userID=<?php echo $userID; ?>";
+                             
+                             else 
+                             	window.location = "error.html";
+                             
+                      		}
                              );
                       });
 

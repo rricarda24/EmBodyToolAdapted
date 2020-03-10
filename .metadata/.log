@@ -562,3 +562,89 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
 	... 9 more
+
+!ENTRY org.eclipse.php.core 4 4 2020-03-10 20:30:05.271
+!MESSAGE Resource '/ /getit.php' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/ /getit.php' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:335)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:209)
+	at org.eclipse.core.internal.resources.Resource.createMarker(Resource.java:696)
+	at org.eclipse.php.internal.core.builder.TaskTagBuildParticipantFactory$TaskTagBuildParticipantParticipant.createMarker(TaskTagBuildParticipantFactory.java:173)
+	at org.eclipse.php.internal.core.builder.TaskTagBuildParticipantFactory$TaskTagBuildParticipantParticipant.reportTask(TaskTagBuildParticipantFactory.java:157)
+	at org.eclipse.php.internal.core.builder.TaskTagBuildParticipantFactory$TaskTagBuildParticipantParticipant.build(TaskTagBuildParticipantFactory.java:282)
+	at org.eclipse.dltk.internal.core.ReconcileBuilder.run(ReconcileBuilder.java:108)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.dltk.internal.core.ReconcileBuilder.build(ReconcileBuilder.java:85)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:57)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:703)
+	at org.eclipse.dltk.internal.core.ModelOperation.runOperation(ModelOperation.java:769)
+	at org.eclipse.dltk.internal.core.SourceModule.reconcile(SourceModule.java:311)
+	at org.eclipse.php.internal.ui.editor.validation.PHPReconcilingStrategy.reconcile(PHPReconcilingStrategy.java:133)
+	at org.eclipse.php.internal.ui.editor.validation.PHPReconcilingStrategy.access$0(PHPReconcilingStrategy.java:121)
+	at org.eclipse.php.internal.ui.editor.validation.PHPReconcilingStrategy$1.run(PHPReconcilingStrategy.java:95)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.php.internal.ui.editor.validation.PHPReconcilingStrategy.reconcile(PHPReconcilingStrategy.java:92)
+	at org.eclipse.php.internal.ui.editor.validation.PHPReconcilingStrategy.initialReconcile(PHPReconcilingStrategy.java:62)
+	at org.eclipse.php.internal.ui.editor.PHPStructuredRegionProcessor.initialReconcile(PHPStructuredRegionProcessor.java:60)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:660)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2020-03-10 20:30:05.275
+!MESSAGE Resource '/ /getit.php' does not exist.
+
+!ENTRY org.eclipse.php.core 4 4 2020-03-10 20:30:06.888
+!MESSAGE Resource '/ /getit.php' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/ /getit.php' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:335)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:209)
+	at org.eclipse.core.internal.resources.Resource.createMarker(Resource.java:696)
+	at org.eclipse.php.internal.core.builder.TaskTagBuildParticipantFactory$TaskTagBuildParticipantParticipant.createMarker(TaskTagBuildParticipantFactory.java:173)
+	at org.eclipse.php.internal.core.builder.TaskTagBuildParticipantFactory$TaskTagBuildParticipantParticipant.reportTask(TaskTagBuildParticipantFactory.java:157)
+	at org.eclipse.php.internal.core.builder.TaskTagBuildParticipantFactory$TaskTagBuildParticipantParticipant.build(TaskTagBuildParticipantFactory.java:282)
+	at org.eclipse.dltk.internal.core.ReconcileBuilder.run(ReconcileBuilder.java:108)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.dltk.internal.core.ReconcileBuilder.build(ReconcileBuilder.java:85)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:57)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:703)
+	at org.eclipse.dltk.internal.core.ModelOperation.runOperation(ModelOperation.java:769)
+	at org.eclipse.dltk.internal.core.SourceModule.reconcile(SourceModule.java:311)
+	at org.eclipse.php.internal.ui.editor.validation.PHPReconcilingStrategy.reconcile(PHPReconcilingStrategy.java:133)
+	at org.eclipse.php.internal.ui.editor.validation.PHPReconcilingStrategy.access$0(PHPReconcilingStrategy.java:121)
+	at org.eclipse.php.internal.ui.editor.validation.PHPReconcilingStrategy$1.run(PHPReconcilingStrategy.java:95)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.php.internal.ui.editor.validation.PHPReconcilingStrategy.reconcile(PHPReconcilingStrategy.java:92)
+	at org.eclipse.php.internal.ui.editor.validation.PHPReconcilingStrategy.reconcile(PHPReconcilingStrategy.java:77)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.process(DirtyRegionProcessor.java:606)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:310)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2020-03-10 20:30:06.889
+!MESSAGE Resource '/ /getit.php' does not exist.
+
+!ENTRY org.eclipse.help.base 2 0 2020-03-10 21:20:23.475
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.webtools.doc.user_1.0.500.v201208081537 [497]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2020-03-10 21:20:23.480
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.server.ui.doc.user_1.1.600.v201309182117 [484]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2020-03-10 21:20:23.500
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.jsdt.doc_2.0.200.v201710302345 [455]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2020-03-10 21:20:23.500
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.dtdeditor.doc.user_1.0.700.v201208081537 [432]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2020-03-10 21:20:23.560
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.xmleditor.doc.user_1.0.700.v201707252002 [501]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2020-03-10 21:20:23.570
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.xsdeditor.doc.user_1.0.800.v201707252002 [504]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2020-03-10 21:20:23.570
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.sse.doc.user_1.1.100.v201208081537 [487]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 4 4 2020-03-10 21:20:29.840
+!MESSAGE Help documentation could not be indexed completely.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2020-03-10 21:20:29.840
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_codeFormatter.html cannot be opened.
