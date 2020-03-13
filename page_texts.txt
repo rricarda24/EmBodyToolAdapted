@@ -17,7 +17,7 @@ Title (displayed on login page, does not support ## markup):
 title || Emotion Words
 
 'tasklabel' (displayed as instruction on every page where user does something (annotate-pages):
-tasklabel || Wo verspüren Sie in Ihrem Körper aktuell Aktivierung, wo Deaktivierung? <br \> <br \> Markieren Sie die Stellen auf dem jeweiligen Körperumriss, indem Sie mit dem Controller den Cursor bewegen und die Triggertaste drücken. Stellen Sie sich dabei vor, dass der Körperumriss Ihr Spiegelbild ist. <br \> <br \> Wenn Sie mit Ihrer Markierung zufrieden sind klicken Sie mit dem Controller auf "Speichern" bzw. auf "Nochmals", wenn nicht. <br \> <br \> Sobald die Markierungen verschwunden sind, setzen Sie das Experiment mit "WEITER" (Blicksteuerung) fort.
+tasklabel || Wo verspüren Sie in Ihrem Körper aktuell Aktivierung, wo Deaktivierung? <br \> <br \> Markieren Sie die Stellen auf dem jeweiligen Körperumriss, indem Sie mit dem Controller den Cursor bewegen und die Triggertaste drücken. Stellen Sie sich dabei vor, dass der Körperumriss Ihr Spiegelbild sei. <br \> <br \> Wenn Sie mit Ihrer Markierung zufrieden sind klicken Sie mit dem Controller auf "Speichern" bzw. auf "Nochmals", wenn nicht. <br \> <br \> Sobald die Markierungen verschwunden sind, setzen Sie das Experiment mit "WEITER" (Blicksteuerung) fort.
 'forward' button moves subject from one stimulus to the next when ready
 forward || Speichern
 
