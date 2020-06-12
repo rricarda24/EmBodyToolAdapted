@@ -7,13 +7,13 @@
 			<item value="1"/>
 		</list>
 		<list key="orderedElements">
-			<item value="search.in.help"/>
+			<item value="org.eclipse.ui.newWizard(newWizardId=org.eclipse.oomph.setup.presentation.SetupModelProjectWizardID)"/>
 		</list>
 		<list key="orderedProviders">
-			<item value="org.eclipse.ui.actions"/>
+			<item value="org.eclipse.ui.commands"/>
 		</list>
 		<list key="textArray">
-			<item value="uncomment"/>
+			<item value="presentation"/>
 		</list>
 	</section>
 </section>
