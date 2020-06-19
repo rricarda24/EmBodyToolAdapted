@@ -17,7 +17,7 @@ Title (displayed on login page, does not support ## markup):
 title || Emotion Words
 
 'tasklabel' (displayed as instruction on every page where user does something (annotate-pages):
-tasklabel || Markieren Sie (durch Ausmalen nicht Umkreisen) in den beiden Grafiken jeweils die Körperregionen, in denen Sie MOMENTAN Aktivierung bzw. Deaktivierung verspüren. <br \> <br \>Zeigen Sie dafür mit dem Controller auf den Umriss und drücken Sie die Triggertaste.  <br \> <br \>Sobald die Markierungen verschwunden sind, setzen Sie das Experiment mit "WEITER" (per Blicksteuerung) fort.
+tasklabel || Markieren Sie in den beiden Grafiken jeweils die Körperregionen, in denen Sie MOMENTAN Aktivierung bzw. Deaktivierung verspüren. <br \> <br \> Verwenden Sie hierfür den Controller in Ihrer Hand. Malen können Sie mithilfe der Triggertaste.  <br \> <br \>Drücken Sie 'Speichern', wenn Sie fertig sind. Sobald die Markierungen verschwunden sind, setzen Sie das Experiment mit "WEITER" (per Blicksteuerung) fort.
 'forward' button moves subject from one stimulus to the next when ready
 forward || Speichern
 
